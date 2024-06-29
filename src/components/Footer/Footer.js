@@ -19,28 +19,28 @@ function Footer() {
       </div>
 
       <div className='text-white  p-4 '>
-        <h5><b>Quick Links</b></h5>
+        <h5><u><b>Quick Links</b></u></h5>
         <Link to="/" className='links text-decoration-none text-white'><p>Home</p></Link>
         <Link to="/category"className='links text-decoration-none text-white'><p>Category</p></Link>
         <Link to="/blog"className='links text-decoration-none text-white'><p>Blog</p></Link>
         <Link to="/about"className='links text-decoration-none text-white'><p>About</p></Link>
-        <Link to="/about"className='links text-decoration-none text-white'><p>Contact</p></Link>
+        <Link to="/contact"className='links text-decoration-none text-white'><p>Contact</p></Link>
       </div>
 
       <div className='text-white  p-4 '>
-        <h5><b>Customer Service</b></h5>
+        <h5><u><b>Customer Service</b></u></h5>
         <Link to="/" className='links text-decoration-none text-white'><p>Track Order</p></Link>
-        <Link to="/category"className='links text-decoration-none text-white'><p>returns</p></Link>
-        <Link to="/blog"className='links text-decoration-none text-white'><p>FAQ</p></Link>
-        <Link to="/about"className='links text-decoration-none text-white'><p>Privacy Policy</p></Link>
-        <Link to="/about"className='links text-decoration-none text-white'><p>Terms and Condition</p></Link>
+        <Link to="/"className='links text-decoration-none text-white'><p>returns</p></Link>
+        <Link to="/"className='links text-decoration-none text-white'><p>FAQ</p></Link>
+        <Link to="/"className='links text-decoration-none text-white'><p>Privacy Policy</p></Link>
+        <Link to="/"className='links text-decoration-none text-white'><p>Terms and Condition</p></Link>
       </div>
 
       <div className='text-white p-4 mb-5' >
-        <h5><b>Contact Us</b></h5>
+        <h5><u><b>Contact Us</b></u></h5>
         <img src={LocationLogo} className='contact-logo'/><span><Link to="/" className=' text-decoration-none text-white mx-3'>404 Laxmi heights Above Lotus Hospital<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Shewadewadi(Hadapsar), pune - 412307</Link></span> <br/><br/>
-        <img src={TelLogo} className='contact-logo'/><span><Link to="tel" className=' text-decoration-none text-white mx-3'>+91 9045237855</Link></span> <br/><br/>
-        <img src={MailLogo} className='contact-logo'/><span><Link to="/" className=' text-decoration-none text-white mx-3'>xyz@gmail.com</Link></span> <br/>
+        <img src={TelLogo} className='contact-logo'/><span><Link to="tel:+91 9045237855" className=' text-decoration-none text-white mx-3'>+91 9045237855</Link></span> <br/><br/>
+        <img src={MailLogo} className='contact-logo'/><span><Link to="mailto: xyz@gmail.com" className=' text-decoration-none text-white mx-3'>xyz@gmail.com</Link></span> <br/>
       </div>
 
     </footer>
