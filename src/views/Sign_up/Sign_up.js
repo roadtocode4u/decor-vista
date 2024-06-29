@@ -29,6 +29,12 @@ function Sign_up() {
              <input type="password" placeholder="password" id="password" className="input-box rounded-2  px-3 py-1 w-100  fs-5 border-0"  />
              </div>
 
+             
+             <button type="button" class="btn btn-primary w-100 my-4 rounded-3  fs-6 "   onClick={
+               () => {
+                 toast.success("You are  Successfully sign up!")
+               }
+             }>Create an account</button>
            
             
              </form>
