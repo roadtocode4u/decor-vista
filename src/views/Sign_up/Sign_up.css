@@ -1,53 +1,39 @@
 
 
 .sign-in-container{
-    
-    display: flex;
-    justify-content: center;
+   
     height: 500px;
-    justify-content: space-evenly;
-    padding: 30px;
-  
+    width: 900px;
+    margin: 50px auto;
+   
 }
 .sign-in-container:hover{
    box-shadow: 0 0 gray;   
 }
-
-.signup-img{
+.img-container{
     height: 450px;
-    width: 480px;
-    border-radius: 30px;
+    
+}
+.signup-img{
+    height: 100%;
+    width: 100%;
     box-shadow: 0 0 15px 2px gray ;
-   
 }
 
 
 .sign-in-form-container{
     height: 450px;
     width: 450px;
-    background-color:#fddbc4;
-    border-radius: 20px;
-    margin-left:-270px;
-    position: relative;
-
-
+    background-color:#b3caff;
 }
 
-.sign-in-logo-img-container{
-    align-items: center;
-    /* background-color: aliceblue; */
+.icon-container{
     width: 150px;
-    display: flex;
-    justify-content: space-evenly;
     margin: 0 auto;
 
 }
 
-.sign-in-text{
-    text-align: center;
-}
-
-.sign-logo-img{
+.sign-icon{
     height: 22px;
     cursor: pointer;
    
@@ -61,10 +47,7 @@
     padding: 30px;
     border-radius: 10px;
    
-
 }
-
-
 .input-box{
     height: 30px;
     width: 250px;
@@ -78,10 +61,10 @@
    display: block;
    margin: 30px auto;
    align-items: center;
-   background-color:rgb(150, 223, 150);
+   border: none;
    padding: 7px 25px;
    border-radius: 10px;
-   border: 2px solid rgb(15, 72, 15);
+
    font-weight: bold;
 
 }
