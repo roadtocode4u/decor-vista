@@ -36,6 +36,13 @@ function Footer() {
         <Link to="/about"className='links text-decoration-none text-white'><p>Terms and Condition</p></Link>
       </div>
 
+      <div className='text-white p-4 mb-5' >
+        <h5><b>Contact Us</b></h5>
+        <img src={LocationLogo} className='contact-logo'/><span><Link to="/" className=' text-decoration-none text-white mx-3'>404 Laxmi heights Above Lotus Hospital<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Shewadewadi(Hadapsar), pune - 412307</Link></span> <br/><br/>
+        <img src={TelLogo} className='contact-logo'/><span><Link to="tel" className=' text-decoration-none text-white mx-3'>+91 9045237855</Link></span> <br/><br/>
+        <img src={MailLogo} className='contact-logo'/><span><Link to="/" className=' text-decoration-none text-white mx-3'>xyz@gmail.com</Link></span> <br/>
+      </div>
+
     </footer>
     
   </>)
