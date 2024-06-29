@@ -1,5 +1,9 @@
 import "./Sign_up.css"
 import toast, { Toaster } from 'react-hot-toast'
+import gmail from "./images/gmail.png"
+import facebook from "./images/facebook.png"
+import twitter from "./images/twitter.png"
+
 
 function Sign_up() {
      return (<>
@@ -30,19 +34,25 @@ function Sign_up() {
              </div>
 
              
-             <button type="button" class="btn btn-primary w-100 my-4 rounded-3  fs-6 "   onClick={
+             <button type="submit" class="btn btn-primary w-100 my-4 rounded-3  fs-6 "   onClick={
                () => {
                  toast.success("You are  Successfully sign up!")
                }
              }>Create an account</button>
            
+            <h3 className="text-center">or continue with</h3>
             
              </form>
+             <div className="icon-container w-50  d-flex justify-content-evenly mx-auto">
+
+             <a href="https://mail.google.com/" target="_blank" ><img src={gmail} className="icon  "/></a>
+                <img src={twitter} className="icon"/>
+                 <img src={facebook} className="icon"/>
+
+            </div>
              
          </div>
           </div>
-
-
 
           <div className="w-50 bg-success">
                <h1 className="fs-1">hello</h1>
