@@ -18,7 +18,16 @@ function Footer() {
         <Link to="/about"className='links text-decoration-none text-white'><img src='https://cdn-icons-png.flaticon.com/128/15707/15707737.png'  className='logo'/></Link>
       </div>
 
-       </footer>
+      <div className='text-white  p-4 '>
+        <h5><b>Quick Links</b></h5>
+        <Link to="/" className='links text-decoration-none text-white'><p>Home</p></Link>
+        <Link to="/category"className='links text-decoration-none text-white'><p>Category</p></Link>
+        <Link to="/blog"className='links text-decoration-none text-white'><p>Blog</p></Link>
+        <Link to="/about"className='links text-decoration-none text-white'><p>About</p></Link>
+        <Link to="/about"className='links text-decoration-none text-white'><p>Contact</p></Link>
+      </div>
+
+    </footer>
     
   </>)
 }
