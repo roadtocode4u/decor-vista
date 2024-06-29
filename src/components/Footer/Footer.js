@@ -27,6 +27,15 @@ function Footer() {
         <Link to="/about"className='links text-decoration-none text-white'><p>Contact</p></Link>
       </div>
 
+      <div className='text-white  p-4 '>
+        <h5><b>Customer Service</b></h5>
+        <Link to="/" className='links text-decoration-none text-white'><p>Track Order</p></Link>
+        <Link to="/category"className='links text-decoration-none text-white'><p>returns</p></Link>
+        <Link to="/blog"className='links text-decoration-none text-white'><p>FAQ</p></Link>
+        <Link to="/about"className='links text-decoration-none text-white'><p>Privacy Policy</p></Link>
+        <Link to="/about"className='links text-decoration-none text-white'><p>Terms and Condition</p></Link>
+      </div>
+
     </footer>
     
   </>)
