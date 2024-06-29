@@ -18,7 +18,19 @@ function Sign_up() {
         
              <input type="text" placeholder="Name" id="name" className="input-box rounded-2 px-3 py-1 w-100  fs-5 border-0" required/>
              </div>
-             
+             <div className=" my-3" >
+             <h4 className="fs-5 ">Enter Email:</h4> 
+            
+             <input type="email" placeholder="Email" id="email" className="input-box rounded-2 px-3 py-1 w-100 fs-5 border-0"required />
+             </div> 
+             <div className=" my-3">
+             <h4 className="fs-5 ">Enter Password:</h4> 
+            
+             <input type="password" placeholder="password" id="password" className="input-box rounded-2  px-3 py-1 w-100  fs-5 border-0"  />
+             </div>
+
+           
+            
              </form>
              
          </div>
