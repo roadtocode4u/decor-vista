@@ -1,11 +1,17 @@
 
 
  .main-container{
-    height: 550px;
+    /* height: 550px; */
  }
  .icon{
    height: 35px;
  }
  .icon-container{
    cursor: pointer;
+ }
+ .heading-continue {
+   position: absolute;
+   bottom: -2px;
+   left: 150px;
+
  }
