@@ -3,10 +3,13 @@ import toast, { Toaster } from 'react-hot-toast'
 import gmail from "./images/gmail.png"
 import facebook from "./images/facebook.png"
 import twitter from "./images/twitter.png"
+import singupimg from "./images/sign-up.png"
 import {Link} from "react-router-dom"
 
 
 function Sign_up() {
+   
+
      return (<>
           <div className=" main-container d-flex flex-wrap">
                <div className="signup-contaainer w-50 bg-secondary">
@@ -37,6 +40,7 @@ function Sign_up() {
 
                               <button type="submit" class="btn btn-primary w-100 my-4 rounded-3  fs-6 " onClick={
                                    () => {
+                                      
                                         toast.success("You are  Successfully sign up!")
                                    }
                               }>Create an account</button>
@@ -58,7 +62,9 @@ function Sign_up() {
                </div>
 
                <div className="w-50 bg-success">
-                    <h1 className="fs-1">hello</h1> 
+                    <h1 className="fs-1 mt-5 text-center">"Create Your Dream Home,Find Chic Decor Solutions With Decor Vista"</h1> 
+                    <img src={singupimg} className="img w-75  d-block mx-auto"/>
+              
                </div>
           </div>
           <Toaster />
