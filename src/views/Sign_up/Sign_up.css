@@ -1,7 +1,7 @@
 
 
  .main-container{
-    /* height: 550px; */
+    height: 100vh;
  }
  .icon{
    height: 35px;
@@ -11,7 +11,7 @@
  }
  .heading-continue {
    position: absolute;
-   bottom: -2px;
-   left: 150px;
+   bottom:-2px;
+   left: 30%;
 
  }

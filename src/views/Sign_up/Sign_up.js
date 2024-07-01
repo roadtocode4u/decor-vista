@@ -4,24 +4,24 @@ import gmail from "./images/gmail.png"
 import facebook from "./images/facebook.png"
 import twitter from "./images/twitter.png"
 import singupimg from "./images/sign-up.png"
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 
 function Sign_up() {
-   
+
 
      return (<>
           <div className=" main-container d-flex flex-wrap">
-               <div className="signup-contaainer w-50 bg-secondary">
-                    <h1 className="fs-1 text-center mt-4">
+               <div className="signup-contaainer w-50 bg-light">
+                    <h1 className="fs-1 text-center  text-primary mt-3">
                          "Designs that Spark Joy"
                     </h1>
-                    <h2 className="fs-2 text-center mt-5">Sign-Up Here</h2>
+                    <h2 className="fs-2 text-center mt-4">Sign-Up Here</h2>
 
 
                     <div className=" d-flex flex-column  w-75 mx-auto position-relative " >
                          <form>
-                              <div className=" my-3 ">
+                              <div className=" my-2 ">
                                    <h4 className="fs-5  ">Enter Full Name:</h4>
 
                                    <input type="text" placeholder="Name" id="name" className="input-box rounded-2 px-3 py-1 w-100  fs-5 border-0" required />
@@ -38,33 +38,35 @@ function Sign_up() {
                               </div>
 
 
-                              <button type="submit" class="btn btn-primary w-100 my-4 rounded-3  fs-6 " onClick={
+                              <button type="submit" class="btn btn-primary w-100 my-3 rounded-3  fs-6 " onClick={
                                    () => {
-                                      
+
                                         toast.success("You are  Successfully sign up!")
                                    }
                               }>Create an account</button>
 
                               <hr/>
 
-                              <h3 className=" heading-continue text-center bg-secondary ">Or continue with</h3>
+                              <h3 className="heading-continue   text-center bg-light fs-4 ">Or continue with</h3>
 
                          </form>
 
                     </div>
-                    <div className="icon-container w-50  d-flex justify-content-evenly mx-auto mt-4" >
+                    <div className="icon-container w-50  d-flex justify-content-evenly mx-auto mt-3" >
 
                          <a href="https://mail.google.com/" target="_blank" ><img src={gmail} className="icon  " /></a>
                          <img src={twitter} className="icon" />
                          <img src={facebook} className="icon" />
                     </div>
-                    <h4 className="fs-5 text-center mt-4">Already have an account?  <Link to={"/login"}>Log In </Link> </h4>
+                    <h4 className="fs-5 text-center mt-3">Already have an account ?  <Link to={"/login"}>Log In </Link> </h4>
                </div>
 
-               <div className="w-50 bg-success">
-                    <h1 className="fs-1 mt-5 text-center">"Create Your Dream Home,Find Chic Decor Solutions With Decor Vista"</h1> 
-                    <img src={singupimg} className="img w-75  d-block mx-auto"/>
-              
+               <div className="w-50 bg-primary">
+
+                    <img src={singupimg}  className="img w-75  d-block mx-auto" />
+                    <h1 className="fs-2 mt-1 text-center">"Create Your Dream Home,Find Chic Decor Solutions With <b>Decor Vista"</b></h1>
+
+
                </div>
           </div>
           <Toaster />
